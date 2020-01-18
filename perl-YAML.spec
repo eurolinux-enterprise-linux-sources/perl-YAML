@@ -1,6 +1,6 @@
 Name:           perl-YAML
 Version:        0.84
-Release:        4%{?dist}
+Release:        5%{?dist}
 Summary:        YAML Ain't Markup Language (tm)
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -59,6 +59,9 @@ make test
 %{_mandir}/man3/YAML*.3*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.84-5
+- Mass rebuild 2013-12-27
+
 * Tue Aug 28 2012 Jitka Plesnikova <jplesnik@redhat.com> - 0.84-4
 - Specify all dependencies.
 
